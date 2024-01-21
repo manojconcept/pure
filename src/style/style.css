@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    
+}
+
+main{
+    margin: 0 300px 0 300px;  
+}
+.nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin: 0 300px 0 300px;
+    background-color: bisque;
+
+}
+
+.navC1, .navC2 , .navC3 {
+    width: 100px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+/* Sudo Code */
+.navC1:hover, .navC2:hover, .navC3:hover{
+    background-color: rgb(12, 12, 12);  
+    color: white;
+    cursor: pointer;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+}
+
+/* main */
+.main{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content:space-between;
+}
+
+/* sideBar */
+.firstContain{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstContain > .mainC1, .mainC2, .mainC3 {
+    width: auto;
+    padding: 50px;
+    background-color: aqua;
+    margin: 2px;
+}
+
+.mainC1:hover, .mainC2:hover, .mainC3:hover{
+    cursor: pointer;
+    background-color: rgba(77, 123, 209, 0.5);
+
+} 
+
+/*second container */
+.secondContian{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+
+
+.subSec{
+    text-align: justify;
+    /* padding: 10px; */
+}
+
+.sc-1{
+    display: flex;
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    margin: 0 300px 0 300px;
+}
+
+
+
+.heading{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
